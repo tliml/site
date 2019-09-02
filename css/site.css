@@ -1,0 +1,133 @@
+
+@font-face {
+	font-family: "Arimo";
+	src:
+		url('fonts/Arimo-Bold.ttf') format('truetype'),
+		url('fonts/Arimo-BoldItalic.ttf') format('truetype'),
+		url('fonts/Arimo-Italic.ttf') format('truetype'),
+		url('fonts/Arimo-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'ED Psaltica';
+  src: url('fonts/Psaltica.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+.container {
+    position: absolute;
+    left: -10px;
+    height: 100%;
+}
+div.content {
+	position: absolute;
+	top: 20px;
+	left: 5px;
+}
+html, body {
+	font-family: "Arimo", sans-serif;
+	font-size: 12pt;
+    background-color: #FBF0D9;
+    color: black; /* do not remove. Used in Javascript */
+    height: 100%;
+    width: 100%;
+}
+p {
+	color: black;   /* night mode #FBF0D9 */
+    text-align: left;
+    font-family: "Arimo", sans-serif;
+    padding-left: -50px;
+    margin-bottom: 0em; /* to control spacing after para */
+}
+p.Dialog, p.DialogP {
+	text-indent: 20px;
+}
+.ages-table-element {
+    word-break: inherit;
+    white-space: normal;
+}
+table {
+  margin: 0 3pt;
+  padding: 0;
+  border-collapse: separate;
+  border-spacing:5px;
+  display: inline;
+}
+tr {
+}
+td {
+  vertical-align: top;
+  width: 50%;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+td.leftCell {
+  border-right: thin solid silver;
+}
+td.cellOneOfThree {
+    vertical-align: top;
+    width: 30vw;
+	max-width: 30vw !important;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-right: thin solid silver;
+}
+td.cellTwoOfThree {
+    vertical-align: top;
+    width: 30vw;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-right: thin solid silver;
+}
+td.cellThreeOfThree {
+    vertical-align: top;
+    width: 30vw;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+span.Error {
+	color: red;
+    font-weight: bold;
+	border: 1px solid red;
+}
+
+span.BkItBd{
+  color: black;
+  font-style: italic;
+  font-weight: bold;
+}
+span.BkIt{
+  color: black;
+  font-style: italic;
+  font-weight: normal;
+}
+span.BkBd{
+  color: black;
+  font-style: normal;
+  font-weight: bold;
+}
+span.Bk{
+  color: black;
+  font-style: normal;
+  font-weight: normal;
+}
+span.RdItBd{
+  color: red;
+  font-style: italic;
+  font-weight: bold;
+}
+span.RdIt{
+  color: red;
+  font-style: italic;
+  font-weight: normal;
+}
+span.RdBd{
+  color: red;
+  font-style: normal;
+  font-weight: bold;
+}
+span.Rd{
+  color: red;
+  font-style: normal;
+  font-weight: normal;
+}
